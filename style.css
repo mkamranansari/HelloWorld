@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	background-color: #aaa;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	z-index: -1;
+	top: 50vh;
+	left:50vw;
+	transform: translate(-50%,-50%) rotateZ(45deg);
+}
+p{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%) rotateZ(-45deg)
+}
+/* ul{
+	position: absolute;
+
+} */
